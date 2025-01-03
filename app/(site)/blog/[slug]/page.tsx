@@ -1,9 +1,10 @@
 import React from "react";
 import { getPostBySlug } from "@/sanity/sanity-utils";
 import RenderBodyContent from "@/app/components/Blog/RenderBodyContent";
+import { Blog } from "@/types/blog";
 
-const SingleBlogPost = async ({ params }: { params: any }) => {
-  const post = await getPostBySlug(params.slug);
+const SingleBlogPost = async ({ params }: { params: { slug: string } }) => {
+  const post: Blog = await getPostBySlug(params.slug);
 
   return (
     <article className="my-10">

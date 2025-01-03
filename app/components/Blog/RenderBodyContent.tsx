@@ -4,11 +4,20 @@ import { PortableText } from "@portabletext/react";
 import { getImageDimensions } from "@sanity/asset-utils";
 import urlBuilder from "@sanity/image-url";
 import Image from "next/image";
-
-import SyntaxHighligher from "react-syntax-highlighter";
+import SyntaxHighlighter from "react-syntax-highlighter";
 import { dracula } from "react-syntax-highlighter/dist/esm/styles/hljs";
 
-const ImageComponent = ({ value, isInline }: any) => {
+type ImageComponentProps = {
+  value: {
+    asset: {
+      _ref: string;
+    };
+    alt?: string;
+  };
+  isInline: boolean;
+};
+
+const ImageComponent = ({ value, isInline }: ImageComponentProps) => {
   const { width, height } = getImageDimensions(value);
   return (
     <div>
@@ -33,51 +42,66 @@ const ImageComponent = ({ value, isInline }: any) => {
   );
 };
 
+type CodeProps = {
+  value: {
+    language: string;
+    code: string;
+  };
+};
 
-const Code = ({ value}: any) => {
-    return (
-        <div className="my-10">
-      <SyntaxHighligher language={value.language} style={dracula}>
+const Code = ({ value }: CodeProps) => {
+  return (
+    <div className="my-10">
+      <SyntaxHighlighter language={value.language} style={dracula}>
         {value.code}
-      </SyntaxHighligher>
-        </div>
-    )
-}
+      </SyntaxHighlighter>
+    </div>
+  );
+};
 
-const Table = ({value}: any) => {
-    return (
-        <div className="my-10">
-            <table>
-                <tbody>
-                    {value.rows.map((row: any)=> (
-                        <tr key={row._key}>
-                            {row.cells.map((cell: any, key: any) => (
-                                <td key={key} className="first-of-type:bg:gray-100 max-w-[100px]">
-                                   <span className="px-4">{cell}</span> 
-                                </td>
-                            ))}
-                        </tr>
-                    ))}
-                </tbody>
-            </table>
-        </div>
-    )
-}
+type TableProps = {
+  value: {
+    rows: {
+      _key: string;
+      cells: string[];
+    }[];
+  };
+};
+
+const Table = ({ value }: TableProps) => {
+  return (
+    <div className="my-10">
+      <table>
+        <tbody>
+          {value.rows.map((row) => (
+            <tr key={row._key}>
+              {row.cells.map((cell, key) => (
+                <td key={key} className="first-of-type:bg:gray-100 max-w-[100px]">
+                  <span className="px-4">{cell}</span>
+                </td>
+              ))}
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+  );
+};
 
 const components = {
-    types: {
-        image: ImageComponent,
-        code: Code,
-        table: Table
-    }
-}
+  types: {
+    image: ImageComponent,
+    code: Code,
+    table: Table,
+  },
+};
 
-const RenderBodyContent = ({ post }: {post: Blog}) => {
-    return (
-        <>
-        <PortableText value={post?.body as any} components={components}/>
-        </>
-    )
-}
+const RenderBodyContent = ({ post }: { post: Blog }) => {
+  return (
+    <>
+      <PortableText value={post?.body} components={components} />
+    </>
+  );
+};
 
-export default RenderBodyContent
+export default RenderBodyContent;
