@@ -1,7 +1,6 @@
 import React from "react";
 import { getPostBySlug } from "@/sanity/sanity-utils";
 import RenderBodyContent from "@/app/components/Blog/RenderBodyContent";
-import { Blog } from "@/types/blog";
 
 type PageProps = {
   params: {
