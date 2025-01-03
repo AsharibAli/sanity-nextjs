@@ -5,7 +5,7 @@ import { Blog } from "@/types/blog";
 
 type PageProps = {
   params: {
-    slug: string;
+    slug: any;
   };
 };
 
