@@ -5,12 +5,12 @@ import { Blog } from "@/types/blog";
 
 type PageProps = {
   params: {
-    slug: any;
+    slug: string;
   };
 };
 
-const SingleBlogPost = async ({ params }: PageProps) => {
-  const post: Blog = await getPostBySlug(params.slug);
+const SingleBlogPage = async ({ params }: PageProps) => {
+  const post = await getPostBySlug(params.slug);
 
   return (
     <article className="my-10">
@@ -32,4 +32,4 @@ const SingleBlogPost = async ({ params }: PageProps) => {
   );
 };
 
-export default SingleBlogPost;
+export default SingleBlogPage;
