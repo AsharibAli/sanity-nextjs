@@ -3,7 +3,13 @@ import { getPostBySlug } from "@/sanity/sanity-utils";
 import RenderBodyContent from "@/app/components/Blog/RenderBodyContent";
 import { Blog } from "@/types/blog";
 
-const SingleBlogPost = async ({ params }: { params: { slug: string } }) => {
+type PageProps = {
+  params: {
+    slug: string;
+  };
+};
+
+const SingleBlogPost = async ({ params }: PageProps) => {
   const post: Blog = await getPostBySlug(params.slug);
 
   return (
@@ -20,7 +26,7 @@ const SingleBlogPost = async ({ params }: { params: { slug: string } }) => {
       </div>
 
       <article className="prose lg:prose-xl">
-        <RenderBodyContent post={post}/>
+        <RenderBodyContent post={post} />
       </article>
     </article>
   );
