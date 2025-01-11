@@ -38,7 +38,7 @@ async function importData() {
   try {
     console.log('Fetching car data from API...');
 
-    // Replace this URL with the actual API endpoint containing car data
+    // API endpoint containing car data
     const response = await axios.get('https://67820232c51d092c3dcdf34f.mockapi.io/carrental/cars');
     const cars = response.data;
 

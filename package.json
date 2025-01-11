@@ -7,7 +7,6 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "import-data": "node scripts/importSanityData.mjs",
     "import-rental-car-data": "node scripts/importTemplate7Data.mjs"
   },
   "dependencies": {
