@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "import-rental-car-data": "node scripts/importTemplate7Data.mjs"
+    "import-data": "node scripts/importTemplate7Data.mjs"
   },
   "dependencies": {
     "@portabletext/react": "^3.2.0",
