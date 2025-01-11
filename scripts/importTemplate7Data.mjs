@@ -39,7 +39,7 @@ async function importData() {
     console.log('Fetching car data from API...');
 
     // API endpoint containing car data
-    const response = await axios.get('https://67820232c51d092c3dcdf34f.mockapi.io/carrental/cars');
+    const response = await axios.get('https://sanity-nextjs-blog-app.vercel.app/api/hackathon/template7');
     const cars = response.data;
 
     console.log(`Fetched ${cars.length} cars`);

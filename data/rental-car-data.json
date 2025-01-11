@@ -7,7 +7,7 @@
     "transmission": "Manual",
     "seating_capacity": "2 People",
     "price_per_day": "$99.00",
-    "image_url": "/car1.webp",
+    "image_url": "https://car-rental-website-five.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fcar.11698147.jpg&w=640&q=75",
     "tags": ["popular"]
   },
   {
@@ -19,7 +19,7 @@
     "seating_capacity": "2 People",
     "price_per_day": "$80.00",
     "original_price": "$100.00",
-    "image_url": "/car2.webp",
+    "image_url": "https://car-rental-website-five.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fcar(1).cab606a9.jpg&w=640&q=75",
     "tags": ["popular"]
   },
   {
@@ -30,7 +30,7 @@
     "transmission": "Manual",
     "seating_capacity": "4 People",
     "price_per_day": "$96.00",
-    "image_url": "/car3.webp",
+    "image_url": "https://car-rental-website-five.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FCar(2).bd07489a.jpg&w=1200&q=75",
     "tags": ["popular"]
   },
   {
@@ -42,7 +42,7 @@
     "seating_capacity": "2 People",
     "price_per_day": "$80.00",
     "original_price": "$100.00",
-    "image_url": "/car4.webp",
+    "image_url": "https://car-rental-website-five.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fcar(1).cab606a9.jpg&w=1200&q=75",
     "tags": ["popular"]
   },
   {
@@ -53,7 +53,7 @@
     "transmission": "Manual",
     "seating_capacity": "5 seats",
     "price_per_day": "$100.00/day",
-    "image_url": "/car5.webp",
+    "image_url": "https://car-rental-website-five.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FCar(13).37182fc4.jpg&w=1200&q=75",
     "tags": ["recommended"]
   },
   {
@@ -64,7 +64,7 @@
     "transmission": "Manual",
     "seating_capacity": "4 seats",
     "price_per_day": "$80.00/day",
-    "image_url": "/car6.webp",
+    "image_url": "https://car-rental-website-five.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FCar(14).5f4e5799.jpg&w=1200&q=75",
     "tags": ["recommended"]
   },
   {
@@ -75,7 +75,7 @@
     "transmission": "Manual",
     "seating_capacity": "7 seats",
     "price_per_day": "$150.00/day",
-    "image_url": "/car7.webp",
+    "image_url": "https://car-rental-website-five.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FCar(15).5f4e5799.jpg&w=1200&q=75",
     "tags": ["recommended"]
   },
   {
@@ -86,7 +86,7 @@
     "transmission": "Manual",
     "seating_capacity": "5 seats",
     "price_per_day": "$120.00/day",
-    "image_url": "/car8.webp",
+    "image_url": "https://car-rental-website-five.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FCar(16).fc285c8d.jpg&w=1200&q=75",
     "tags": ["recommended"]
   },
   {
@@ -98,7 +98,7 @@
     "transmission": "Manual",
     "seating_capacity": "5 seats",
     "price_per_day": "$140.00/day",
-    "image_url": "/car9.webp",
+    "image_url": "https://car-rental-website-five.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FCar(17).574834dc.jpg&w=1200&q=75",
     "tags": ["recommended"]
   },
   {
@@ -110,7 +110,7 @@
     "transmission": "Manual",
     "seating_capacity": "4 seats",
     "price_per_day": "$200.00/day",
-    "image_url": "/car10.webp",
+    "image_url": "https://car-rental-website-five.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FCar(18).1b97b4cf.jpg&w=1200&q=75",
     "tags": ["recommended"]
   },
   {
@@ -122,7 +122,7 @@
     "transmission": "Manual",
     "seating_capacity": "4 seats",
     "price_per_day": "$110.00/day",
-    "image_url": "/car11.webp",
+    "image_url": "https://car-rental-website-five.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FCar(19).547db9f7.jpg&w=1200&q=75",
     "tags": ["recommended"]
   },
   {
@@ -134,7 +134,7 @@
     "transmission": "Manual",
     "seating_capacity": "5 seats",
     "price_per_day": "$90.00/day",
-    "image_url": "/car12.webp",
+    "image_url": "https://car-rental-website-five.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FCar(20).1b97b4cf.jpg&w=1200&q=75",
     "tags": ["recommended"]
   },
   {
@@ -145,7 +145,7 @@
     "transmission": "Manual",
     "seating_capacity": "6 People",
     "price_per_day": "$72.00",
-    "image_url": "/car13.webp",
+    "image_url": "https://car-rental-website-five.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FCar(17).574834dc.jpg&w=1200&q=75",
     "tags": ["recommended"]
   },
   {
@@ -156,7 +156,7 @@
     "transmission": "Manual",
     "seating_capacity": "6 People",
     "price_per_day": "$80.00",
-    "image_url": "/car14.webp",
+    "image_url": "https://car-rental-website-five.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FCar(15).5f4e5799.jpg&w=1200&q=75",
     "tags": ["recommended"]
   },
   {
@@ -167,7 +167,7 @@
     "transmission": "Manual",
     "seating_capacity": "6 People",
     "price_per_day": "$74.00",
-    "image_url": "/car15.webp",
+    "image_url": "https://car-rental-website-five.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FCar(16).fc285c8d.jpg&w=1200&q=75",
     "tags": ["recommended"]
   },
   {
@@ -178,7 +178,7 @@
     "transmission": "Manual",
     "seating_capacity": "2 People",
     "price_per_day": "$99.00",
-    "image_url": "/car16.webp",
+    "image_url": "https://car-rental-website-five.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FCar(15).5f4e5799.jpg&w=1200&q=75",
     "tags": ["recommended"]
   }
 ]

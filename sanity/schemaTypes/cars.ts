@@ -61,10 +61,12 @@ export default {
       description: 'Tags for categorization (e.g., popular, recommended)',
     },
     {
-      name: 'imageUrl',
-      type: 'url',
-      title: 'Car Image URL',
-      description: 'Link to the car image',
-    },
+      name: 'image',
+      type: 'image',
+      title: 'Car Image',
+      options: {
+        hotspot: true // Enables cropping and focal point selection
+      }
+    }
   ],
 };

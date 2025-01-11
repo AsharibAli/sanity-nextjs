@@ -5,7 +5,7 @@ import post from "./post";
 import blockContent from "./blockContent";
 import code from "./code";
 import product from "./product";
-import car from "./rental-cars";
+import car from "./cars";
 
 export const schema: {types: SchemaTypeDefinition[]} = {
   types: [author, category, post, blockContent, code, product, car],
