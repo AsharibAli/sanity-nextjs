@@ -1,0 +1,15 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "npm",
+			"script": "import-data",
+			"group": "build",
+			"problemMatcher": [],
+			"label": "npm: import-data",
+			"presentation": {
+				"reveal": "silent"
+			}
+		}
+	]
+}
