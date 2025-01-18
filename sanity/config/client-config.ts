@@ -5,7 +5,7 @@ const config = {
 	dataset: "production",
 	apiVersion: "2023-03-09",
 	useCdn: false,
-	token: process.env.SANITY_API_KEY as string,
+	token: process.env.SANITY_API_TOKEN as string,
 	perspective: 'published' as ClientPerspective,
 };
 
